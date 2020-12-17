@@ -12,6 +12,6 @@ DISABLE XFCE GLX =>  xfconf-query -c xfwm4 -p /general/vblank_mode -t string -s 
 
 WINDOWS COMPOSITOR:
 compton --vsync opengl-swc --paint-on-overlay --shadow-exclude "! name~=''" --use-ewmh-active-win -b<br>
-OR<br>
+or<br>
 picom --vsync --shadow-exclude "! name~=''" --use-ewmh-active-win -b
   
