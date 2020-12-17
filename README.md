@@ -6,8 +6,9 @@ ADD TO KERNEL BOOT:
 acpi_osi=! acpi_osi='Windows 2009'
 
 XFCE:
-CHECK VBLANK MODE =>  xfconf-query -c xfwm4 -p /general/vblank_mode --verbose
 
+CHECK VBLANK MODE =>  xfconf-query -c xfwm4 -p /general/vblank_mode --verbose
+<br>
 DISABLE XFCE GLX =>  xfconf-query -c xfwm4 -p /general/vblank_mode -t string -s off --create
 
 WINDOWS COMPOSITOR:
