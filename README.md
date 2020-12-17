@@ -1,6 +1,8 @@
 # INTEL-NVIDIA-BIOS with LINUX
 
-Some old Motherboard with AMIBIOS running LINUX would sometimes freeze within the Desktop (e.g. XFCE).  The following LINUX parameters would benefit the INTEL-NVIDIA-BIOS systems.
+Some old Motherboard with AMIBIOS running LINUX would sometimes freeze within the Desktop (e.g. XFCE).  The following LINUX parameters would benefit the INTEL-NVIDIA-BIOS systems.<br>
+
+<b>NOTE:  These parameters may not work on your system.  Use with caution!</b><br>
 
 ADD TO KERNEL BOOT:<br>
 acpi_osi=! acpi_osi='Windows 2009'
