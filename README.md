@@ -5,12 +5,12 @@ Some old Motherboard with AMIBIOS running LINUX would sometimes freeze within th
 ADD TO KERNEL BOOT:<br>
 acpi_osi=! acpi_osi='Windows 2009'
 
-XFCE:
+XFCE:<br>
 CHECK VBLANK MODE =>  xfconf-query -c xfwm4 -p /general/vblank_mode --verbose
 <br>
 DISABLE XFCE GLX =>  xfconf-query -c xfwm4 -p /general/vblank_mode -t string -s off --create
 
-WINDOWS COMPOSITOR:
+WINDOWS COMPOSITOR:<br>
 compton --vsync opengl-swc --paint-on-overlay --shadow-exclude "! name~=''" --use-ewmh-active-win -b<br>
 or<br>
 picom --vsync --shadow-exclude "! name~=''" --use-ewmh-active-win -b
